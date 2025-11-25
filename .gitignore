@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Service Account (sensitive credentials)
+service-account.json
+*service-account*.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (large)
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Data files (if large)
+*.csv
+!data/*.csv
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CatBoost
+catboost_info/
+
+# MLflow - keep experiment metadata but ignore large artifacts
+mlruns/*/artifacts/
+mlflow_exports/
+*.png
+*.txt
+*.csv
+!requirements.txt
+!data/*.csv
+!*.md
+!mlruns/**/*.yaml
+!mlruns/**/*.json
+!mlruns/**/*.txt
+
+# MLflow - exclude all except README
+mlruns/*
+!mlruns/README.md
