@@ -1,0 +1,14 @@
+artifact_uri: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/models/Smart_Irrigation_Classifier/../../mlruns/327291042310154438/501d4dfceaa7459eb02764869b23febe/artifacts
+end_time: 1764089624382
+entry_point_name: ''
+experiment_id: '327291042310154438'
+lifecycle_stage: active
+run_id: 501d4dfceaa7459eb02764869b23febe
+run_name: Optuna_Trial_9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764089572447
+status: 3
+tags: []
+user_id: abdallah

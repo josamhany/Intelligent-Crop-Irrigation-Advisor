@@ -1,0 +1,15 @@
+creation_timestamp: 1763463252702
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1763463252702
+model_id: m-21704e3cd0f447ba8366c3051f199ec5
+name: IrrigationOptimizationModel
+run_id: 378e6062397e472f8503f844a8e647e9
+run_link: null
+source: models:/m-21704e3cd0f447ba8366c3051f199ec5
+status: READY
+status_message: null
+storage_location: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/models/irrigation_optimization_model/../../mlruns/934665864281209605/models/m-21704e3cd0f447ba8366c3051f199ec5/artifacts
+user_id: null
+version: 1

@@ -1,0 +1,10 @@
+artifact_location: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/models/Smart_Irrigation_Classifier/../../mlruns/327291042310154438/models/m-4853952b048849fca30102c37feb9863/artifacts
+creation_timestamp: 1764089668013
+experiment_id: '327291042310154438'
+last_updated_timestamp: 1764089670574
+model_id: m-4853952b048849fca30102c37feb9863
+model_type: null
+name: smart_irrigation_classifier_model
+source_run_id: 4732aaf0f7fd412d86af0a51689b3e6e
+status: 2
+status_message: null

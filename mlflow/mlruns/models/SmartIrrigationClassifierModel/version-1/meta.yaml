@@ -1,0 +1,15 @@
+creation_timestamp: 1763464661548
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1763464661548
+model_id: m-e9009fff62eb4684b7a21184f0c9124d
+name: SmartIrrigationClassifierModel
+run_id: 367645d2a76f46b5ba54cd0113cea2e4
+run_link: null
+source: models:/m-e9009fff62eb4684b7a21184f0c9124d
+status: READY
+status_message: null
+storage_location: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/models/Smart_Irrigation_Classifier/../../mlruns/327291042310154438/models/m-e9009fff62eb4684b7a21184f0c9124d/artifacts
+user_id: null
+version: 1

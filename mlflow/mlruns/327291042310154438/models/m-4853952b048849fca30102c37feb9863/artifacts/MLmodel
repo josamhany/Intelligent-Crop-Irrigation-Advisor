@@ -1,0 +1,45 @@
+artifact_path: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/models/Smart_Irrigation_Classifier/../../mlruns/327291042310154438/models/m-4853952b048849fca30102c37feb9863/artifacts
+flavors:
+  catboost:
+    catboost_version: 1.2.8
+    code: null
+    data: model.cb
+    model_type: CatBoostClassifier
+    save_format: cbm
+  python_function:
+    data: model.cb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.catboost
+    python_version: 3.13.7
+is_signature_from_type_hint: false
+mlflow_version: 3.6.0
+model_id: m-4853952b048849fca30102c37feb9863
+model_size_bytes: 13479216
+model_uuid: m-4853952b048849fca30102c37feb9863
+prompts: null
+run_id: 4732aaf0f7fd412d86af0a51689b3e6e
+signature:
+  inputs: '[{"type": "double", "name": "soil_moisture", "required": true}, {"type":
+    "double", "name": "temperature", "required": true}, {"type": "double", "name":
+    "soil_humidity", "required": true}, {"type": "double", "name": "Relative_Soil_Saturation",
+    "required": true}, {"type": "double", "name": "temp_diff", "required": true},
+    {"type": "double", "name": "Evapotranspiration", "required": true}, {"type": "double",
+    "name": "rain_vs_soil", "required": true}, {"type": "double", "name": "rainfall",
+    "required": true}, {"type": "long", "name": "ph_encoded", "required": true}, {"type":
+    "double", "name": "n", "required": true}, {"type": "double", "name": "p", "required":
+    true}, {"type": "double", "name": "k", "required": true}, {"type": "double", "name":
+    "np_ratio", "required": true}, {"type": "double", "name": "nk_ratio", "required":
+    true}, {"type": "double", "name": "crop_encoded", "required": true}, {"type":
+    "double", "name": "rain_3days", "required": true}, {"type": "double", "name":
+    "moisture_temp_ratio", "required": true}, {"type": "double", "name": "evapo_ratio",
+    "required": true}, {"type": "double", "name": "rain_effect", "required": true},
+    {"type": "double", "name": "moisture_change_rate", "required": true}, {"type":
+    "double", "name": "temp_scaled", "required": true}, {"type": "double", "name":
+    "npk_balance", "required": true}, {"type": "double", "name": "wind_ratio", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-25 16:54:28.048897'

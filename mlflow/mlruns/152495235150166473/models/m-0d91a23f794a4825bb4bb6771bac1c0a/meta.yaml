@@ -1,0 +1,10 @@
+artifact_location: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/mlruns/152495235150166473/models/m-0d91a23f794a4825bb4bb6771bac1c0a/artifacts
+creation_timestamp: 1763462789236
+experiment_id: '152495235150166473'
+last_updated_timestamp: 1763462791670
+model_id: m-0d91a23f794a4825bb4bb6771bac1c0a
+model_type: null
+name: crop_recommendation_model
+source_run_id: 6575d79819a64be4bd08b09940f2b404
+status: 2
+status_message: null

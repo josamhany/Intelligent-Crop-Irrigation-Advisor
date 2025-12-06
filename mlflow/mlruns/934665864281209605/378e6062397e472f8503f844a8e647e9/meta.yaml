@@ -1,0 +1,14 @@
+artifact_uri: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/models/irrigation_optimization_model/../../mlruns/934665864281209605/378e6062397e472f8503f844a8e647e9/artifacts
+end_time: 1763463252718
+entry_point_name: ''
+experiment_id: '934665864281209605'
+lifecycle_stage: active
+run_id: 378e6062397e472f8503f844a8e647e9
+run_name: CatBoost_Irrigation_Optimization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763463227377
+status: 3
+tags: []
+user_id: abdallah

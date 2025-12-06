@@ -1,0 +1,14 @@
+artifact_uri: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/mlruns/152495235150166473/3d56cee6a4d441a890b42a12a00d0c11/artifacts
+end_time: 1763461120822
+entry_point_name: ''
+experiment_id: '152495235150166473'
+lifecycle_stage: active
+run_id: 3d56cee6a4d441a890b42a12a00d0c11
+run_name: Demo_Run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763461117300
+status: 3
+tags: []
+user_id: abdallah

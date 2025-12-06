@@ -1,0 +1,10 @@
+artifact_location: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/mlruns/152495235150166473/models/m-8417c511ebfd40d5ad1a0ab276a13b98/artifacts
+creation_timestamp: 1764414040575
+experiment_id: '152495235150166473'
+last_updated_timestamp: 1764414042788
+model_id: m-8417c511ebfd40d5ad1a0ab276a13b98
+model_type: null
+name: crop_recommendation_model_with_soiltype
+source_run_id: 7fa6c5b08a7b4b00a7adf7870e89741d
+status: 2
+status_message: null

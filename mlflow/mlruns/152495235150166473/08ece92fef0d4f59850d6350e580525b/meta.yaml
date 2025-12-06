@@ -1,0 +1,14 @@
+artifact_uri: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/mlruns/152495235150166473/08ece92fef0d4f59850d6350e580525b/artifacts
+end_time: 1763462761193
+entry_point_name: ''
+experiment_id: '152495235150166473'
+lifecycle_stage: active
+run_id: 08ece92fef0d4f59850d6350e580525b
+run_name: RandomForest_Crop_Recommendation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763462761167
+status: 4
+tags: []
+user_id: abdallah

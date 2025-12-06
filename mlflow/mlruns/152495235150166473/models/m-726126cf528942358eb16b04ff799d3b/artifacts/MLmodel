@@ -1,0 +1,22 @@
+artifact_path: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/mlruns/152495235150166473/models/m-726126cf528942358eb16b04ff799d3b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.6.0
+model_id: m-726126cf528942358eb16b04ff799d3b
+model_size_bytes: 421557
+model_uuid: m-726126cf528942358eb16b04ff799d3b
+prompts: null
+run_id: 3d56cee6a4d441a890b42a12a00d0c11
+utc_time_created: '2025-11-18 10:18:37.369274'

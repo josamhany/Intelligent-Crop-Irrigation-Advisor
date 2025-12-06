@@ -1,0 +1,15 @@
+creation_timestamp: 1764414042792
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1764414042792
+model_id: m-8417c511ebfd40d5ad1a0ab276a13b98
+name: CropRecommendationModelWithSoilType
+run_id: 7fa6c5b08a7b4b00a7adf7870e89741d
+run_link: null
+source: models:/m-8417c511ebfd40d5ad1a0ab276a13b98
+status: READY
+status_message: null
+storage_location: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/mlruns/152495235150166473/models/m-8417c511ebfd40d5ad1a0ab276a13b98/artifacts
+user_id: null
+version: 1

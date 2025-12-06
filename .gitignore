@@ -45,14 +45,17 @@ service-account.json
 .ipynb_checkpoints
 
 # Model files (large)
-*.pkl
-*.joblib
-*.h5
+# *.pkl  # Allow model files for deployment
+# *.joblib
+# *.h5  # Commented out - using Git LFS for .h5 files
 *.pb
 
 # Data files (if large)
 *.csv
 !data/*.csv
+
+# Allow specific model files via Git LFS
+!models/soil_model_savedmodel/my_soil_model.h5
 
 # Logs
 *.log

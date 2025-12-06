@@ -1,31 +1,20 @@
 # 🌾 Intelligent Crop Irrigation Advisor
 
-An AI-powered web application that provide### Dependencies (Verified Working)
-- Python 3.11+
-- Streamlit 1.50.0
-- CatBoost 1.2.8 (for irrigation models)
-- Scikit-learn 1.7.2 (for crop recommendation)
-- NumPy 2.3.3
-- Pandas 2.3.3
-- Joblib (for model loading)
+An AI-powered precision agriculture platform that provides crop recommendations and irrigation advice using advanced ML models with **full MLflow experiment tracking**.
 
-## ✅ Advanced Fail-Safe System
+## 🌐 Live Demo
 
-### Multi-Layer Protection
-1. **Model Loading Validation**: Comprehensive checks for all 3 models
-2. **Input Validation**: Range checking and realistic value verification  
-3. **Prediction Confidence**: Minimum thresholds for reliable results
-4. **Exception Handling**: Graceful fallback to safe default values
-# 🌾 Intelligent Crop Irrigation Advisor
+**🚀 Try it now:** [https://agritech-advisor.streamlit.app/](https://agritech-advisor.streamlit.app/)
 
-An AI-powered web application that provides crop recommendations and irrigation advice (classification + optimization) using lightweight ML models and a Streamlit UI with **full MLflow experiment tracking**.
+## � Overview
 
-## 🎯 Overview
-
-- Crop recommendation (RandomForest)
+- Crop recommendation with soil type feature (99.32% accuracy)
 - Smart irrigation decision (CatBoost classifier with Optuna optimization)
 - Irrigation amount optimization (CatBoost regressor)
+- Soil type classification (CNN with TensorFlow)
 - **MLflow experiment tracking and model management**
+- IoT sensor integration (Supabase real-time data)
+- Gemini AI agricultural assistant
 - Modular feature-engineering pipeline and fail-safe mechanisms
 
 ## 🚀 Quick Start (Linux / macOS)
@@ -68,8 +57,11 @@ python mlflow_tools/launch_mlflow.py
 ### 4. Run the Streamlit Application
 
 ```bash
-# Launch the app
-python -m streamlit run frontend/streamlit_dashboard/app.py --server.port=8503
+# Launch the app locally
+streamlit run streamlit_app/app.py --server.port 8501
+
+# Or access the live deployment
+# https://agritech-advisor.streamlit.app/
 ```
 
 ## 📊 MLflow Integration
@@ -108,26 +100,30 @@ python mlflow_tools/mlflow_analysis.py --action all
 
 ```
 Intelligent-Crop-Irrigation-Advisor/
-├── mlflow_tools/                 # All MLflow utilities
-│   ├── mlflow_config.py          # MLflow central configuration
+├── streamlit_app/                # Streamlit web application
+│   └── app.py                    # Main application file
+├── mlflow/                       # MLflow experiment tracking
+│   ├── mlruns/                   # Tracking data (auto-created)
 │   ├── train_all_models.py       # Train all models with tracking
 │   ├── launch_mlflow.py          # MLflow UI launcher
 │   ├── mlflow_analysis.py        # Experiment comparison tools
-│   ├── demo_mlflow.py            # Quick MLflow demo
-│   ├── setup_mlflow.sh           # Automated setup script
-│   ├── MLFLOW_GUIDE.md           # Detailed MLflow guide
-│   ├── SETUP_MLFLOW.md           # Installation guide
-│   └── README.md                 # MLflow tools documentation
-├── mlruns/                       # MLflow tracking data (auto-created)
-├── frontend/
-│   └── streamlit_dashboard/      # Streamlit UI
-├── models/
-│   ├── crop recommendation/      # Crop model (updated with MLflow)
-│   ├── irrigation_optimization_model/  # Irrigation regressor (updated)
-│   └── Smart_Irrigation_Classifier/    # Classifier with Optuna (updated)
+│   └── setup_mlflow.sh           # Automated setup script
+├── models/                       # Trained ML models
+│   ├── crop_recommendation/      # Crop model (99.32% accuracy)
+│   ├── irrigation_optimization/  # Irrigation classifier & regressor
+│   └── soil_classification/      # CNN soil type classifier
 ├── data/                         # Training datasets
-├── docs/                         # Project documentation
-└── requirements.txt              # Dependencies (includes MLflow)
+│   ├── crop_data_with_soiltype.csv
+│   ├── Final_irregation_optimization_data.csv
+│   └── soil_images/              # Soil training images (54 samples)
+├── docs/                         # Comprehensive documentation
+│   ├── USER_GUIDE.md
+│   ├── CROP_MODEL_DOCS.md
+│   ├── SMART_IRRIGATION_CLASSIFIER.md
+│   └── GEMINI_SERVICE_ACCOUNT_SETUP.md
+├── hardware/                     # IoT integration code
+│   └── IoTCode/                  # Arduino sensor code
+└── requirements.txt              # Python dependencies
 ```
 
 ## 🔧 Windows Setup (PowerShell)
@@ -195,10 +191,13 @@ python -m streamlit run frontend/streamlit_dashboard/app.py --server.port=8503
 
 - Python 3.11+
 - Streamlit 1.50.0
-- CatBoost 1.2.8
-- Scikit-learn 1.7.2
-- MLflow 2.9.0+
-- Optuna 3.5.0+
+- TensorFlow 2.18.0 (for soil classification CNN)
+- CatBoost 1.2.8 (irrigation models)
+- Scikit-learn 1.7.2 (crop recommendation)
+- MLflow 2.9.0+ (experiment tracking)
+- Optuna 3.5.0+ (hyperparameter tuning)
+- Supabase (IoT sensor integration)
+- Google Gemini API (AI assistant)
 
 ## 🔗 MLflow Workflow
 

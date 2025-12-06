@@ -1,0 +1,1 @@
+['soil_moisture', 'temperature', 'soil_humidity', 'Relative_Soil_Saturation', 'temp_diff', 'Evapotranspiration', 'rain_vs_soil', 'rainfall', 'ph_encoded', 'n', 'p', 'k', 'np_ratio', 'nk_ratio', 'crop_encoded', 'rain_3days', 'moisture_temp_ratio', 'evapo_ratio', 'rain_effect', 'moisture_change_rate', 'temp_scaled', 'npk_balance', 'wind_ratio']

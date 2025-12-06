@@ -1,0 +1,14 @@
+artifact_uri: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/models/Smart_Irrigation_Classifier/../../mlruns/327291042310154438/367645d2a76f46b5ba54cd0113cea2e4/artifacts
+end_time: 1763464661562
+entry_point_name: ''
+experiment_id: '327291042310154438'
+lifecycle_stage: active
+run_id: 367645d2a76f46b5ba54cd0113cea2e4
+run_name: Final_Best_Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763464640090
+status: 3
+tags: []
+user_id: abdallah

@@ -1,0 +1,15 @@
+creation_timestamp: 1764413671486
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1764413671486
+model_id: m-7d1a9fc30b39402e86c9b4c219c4f1e8
+name: CropRecommendationModel
+run_id: 73cd793a643e43e29528c9391b190cb0
+run_link: null
+source: models:/m-7d1a9fc30b39402e86c9b4c219c4f1e8
+status: READY
+status_message: null
+storage_location: file:///home/abdallah/Abdallah/Projects/Intelligent-Crop-Irrigation-Advisor-clone/mlruns/152495235150166473/models/m-7d1a9fc30b39402e86c9b4c219c4f1e8/artifacts
+user_id: null
+version: 7
